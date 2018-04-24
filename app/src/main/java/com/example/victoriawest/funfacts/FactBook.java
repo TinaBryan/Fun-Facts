@@ -6,16 +6,38 @@ import java.util.Random;
 
 public class FactBook {
     String[] facts = {
-            "Ants stretch when they wake up in the morning.",
-            "Ostriches can run faster than horses.",
-            "Olympic gold medals are actually made mostly of silver.",
-            "You are born with 300 bones; by the time you are an adult you will have 206.",
-            "It takes about 8 minutes for light from the Sun to reach Earth.",
-            "Some bamboo plants can grow almost a meter in just one day.",
-            "The state of Florida is bigger than England.",
-            "Some penguins can leap 2-3 meters out of the water.",
-            "On average, it takes 66 days to form a new habit.",
-            "Mammoths still walked the earth when the Great Pyramid was being built." };
+            "Elvis Presley was 18 years old when he recorded his first song at Sun Records Studio." +
+            "Presley, as an unsigned artist, recorded his first two songs as a birthday gift for his mother in 1953",
+            "Mick Jagger is an experienced ballet dancer with years of lessons under his belt",
+            "The Pink Floyd album The Dark Side of the Moon lines up perfectly with the 1939 film The Wizard of Oz. " +
+            "The rainbow on the album cover further pushes the idea that the two are connected.",
+            "U2 front man Bono got his name from a hearing aid store in the centre of Dublin, where he grew up.",
+            "Bono's previous pseudonyms were “Bonavox of O’Connell Street,” “Bonavox,” “Bono Vox” and originally \n “Steinhegvanhuysenolegbangbangbang.”",
+            "The Doors were the first band to ever promote a new album through a billboard ad.",
+            "Reginald Kenneth Dwight is Elton John’s real name.",
+            "Some Rock and Roll historians claim that Chuck Berry is the real King of Rock & Roll, not Elvis Presley",
+            "Queen holds the Guinness World Record for longest-running rock group fan club",
+            "The Eagles were originally the backup band for the singer Linda Ronstadt.",
+            "Elvis recorded over 600 songs with a total of zero writing credits.",
+            "John Bonham, the drummer for Led Zeppelin, drank 40 shots of vodka the night of his death.",
+            "The term used in the 40’s by the US Air Force for UFOs was Foo Fighters.",
+            "Lynyrd Skynyrd got its name from a high school teacher, Leonard Skinner." +
+                    " The teacher was notorious for suspending students for having long hair.",
+            "The song “Black Dog” got its name after a Black Labrador roamed into the studio during a Led Zeppelin recording session. ",
+            "Eric Clapton wrote the song “Layla” with the intention of stealing George Harrison’s wife.",
+            "Sharon Osborne’s Pomeranian was once saved from a coyote attack when Ozzy tackled the wild animal and wrestled it until the dog was released.",
+            "ABBA got its name by taking the first letter of each band member’s name.",
+            "The Doors got their band name from the Aldous Huxley book, “The Doors of Perception”",
+            "Elvis was told to “stick to driving a truck because you’ll never make it as a singer” during an audition for a local Memphis band. " +
+                    "He recorded his first single “That’s Alright” soon after.",
+            "Jimi Hendrix created the song “Little Wing” in a mere 145 seconds.",
+
+
+
+
+
+
+            };
 
     public String getFact() {
             Random randomGenerator = new Random();

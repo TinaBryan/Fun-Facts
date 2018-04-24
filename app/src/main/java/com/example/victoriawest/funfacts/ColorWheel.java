@@ -1,5 +1,7 @@
 package com.example.victoriawest.funfacts;
 
+import android.graphics.Color;
+
 import java.util.Random;
 
 public class ColorWheel {
@@ -19,9 +21,10 @@ public class ColorWheel {
             "#b7c0c7" // light gray
     };
 
-    public String getColor() {
+    int getColor() {
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(Colors.length);
-        return Colors[randomNumber];
+        int color = Color.parseColor(Colors[randomNumber]);
+        return color;
     }
 }

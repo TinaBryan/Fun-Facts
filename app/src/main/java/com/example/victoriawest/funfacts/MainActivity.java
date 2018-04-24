@@ -1,14 +1,13 @@
 package com.example.victoriawest.funfacts;
 
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import java.util.Random;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        factTextView = findViewById(R.id.fact_textview);
-        showFactButton = findViewById(R.id.show_fact_button);
-        relativeLayout = findViewById(R.id.relativeLayout);
+        factTextView = (TextView) findViewById(R.id.fact_textview);
+        showFactButton = (Button) findViewById(R.id.show_fact_button);
+        relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
 
 
         View.OnClickListener listener = new View.OnClickListener() {
@@ -34,11 +33,14 @@ public class MainActivity extends AppCompatActivity {
                 String fact = factBook.getFact();
 
                 factTextView.setText(fact);
-                String color = colorWheel.getColor();
-                relativeLayout.setBackgroundColor(Color) ;
+
+                int color = colorWheel.getColor();
+                relativeLayout.setBackgroundColor(color);
+                showFactButton.setTextColor(color);
             }
         };
         showFactButton.setOnClickListener(listener);
 
     }
+
 }

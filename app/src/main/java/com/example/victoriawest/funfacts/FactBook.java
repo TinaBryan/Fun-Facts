@@ -31,6 +31,8 @@ public class FactBook {
             "Elvis was told to “stick to driving a truck because you’ll never make it as a singer” during an audition for a local Memphis band. " +
                     "He recorded his first single “That’s Alright” soon after.",
             "Jimi Hendrix created the song “Little Wing” in a mere 145 seconds.",
+            " Bob Dylan's “Highway 61 Revisited” is named after Route 61, the highway that goes through his home state Minnesota through the Mississippi Delta.",
+
 
 
 

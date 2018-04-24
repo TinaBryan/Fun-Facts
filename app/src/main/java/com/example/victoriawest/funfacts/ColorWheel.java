@@ -18,7 +18,15 @@ public class ColorWheel {
             "#e0ab18", // mustard
             "#637a91", // dark gray
             "#f092b0", // pink
-            "#b7c0c7" // light gray
+            "#b7c0c7", // light gray
+            "#f470ee",
+            "#ffc977",
+            "#80d6d6",
+            "#77a9dd",
+            "#534cb5",
+            "#e98ef9",
+            "#89b593",
+            "#77afa2"
     };
 
     int getColor() {

@@ -5,7 +5,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#51b46d"
+    android:background="@drawable/concert"
     android:padding="50dp"
     tools:context=".MainActivity">
 
@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Did you know?"
-        android:textColor="#7dffffff"
+        android:textColor="@android:color/background_light"
         android:textSize="24sp" />
 
     <TextView
